@@ -7,7 +7,7 @@ tags: ["Delineamento", "Metodologia", "Epidemiologia"]
 draft: false
 ---
 
-A escolha do delineamento de estudo é uma das decisões mais críticas em qualquer projeto de pesquisa em saúde. Um erro nessa etapa pode comprometer toda a validade interna do trabalho — e essa é exatamente a dúvida que mais aparece nas consultorias do LabEpi.
+A escolha do delineamento de estudo é uma das decisões mais críticas em qualquer projeto de pesquisa em saúde. Um erro nessa etapa pode comprometer toda a validade interna do trabalho — e essa é exatamente uma das dúvidas que mais aparecem entre os pesquisadores que acompanham o LabEpi.
 
 ## Por que o delineamento importa tanto?
 
@@ -58,4 +58,4 @@ Antes de finalizar, confirme:
 
 Com esses 5 passos respondidos, a escolha do delineamento deixa de ser uma aposta e passa a ser uma decisão fundamentada — que você consegue justificar na qualificação, no artigo e perante qualquer revisor.
 
-Se você ainda tiver dúvidas específicas sobre o seu projeto, o [formulário de triagem da consultoria](/consultoria/#triagem) é o lugar certo para descrevê-las.
+Se você ainda tiver dúvidas específicas sobre o seu projeto, [fale com a gente](/contato/#triagem) para descrevê-las.

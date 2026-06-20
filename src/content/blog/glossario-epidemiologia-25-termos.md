@@ -268,9 +268,9 @@ Pandemia é uma epidemia que se espalha por múltiplos países ou continentes, a
 
 Conhecer os termos é o primeiro passo. O segundo é entender como eles se relacionam na prática — como o delineamento escolhido determina qual medida de associação você pode calcular, como o confundimento ameaça qualquer estudo observacional e como o DALY transforma percepções de prioridade em saúde pública.
 
-Se você está em uma iniciação científica, dissertação ou artigo e sente que algum desses conceitos ainda não está sólido, a consultoria metodológica do Laboratório de Epidemiologia existe exatamente para isso: trabalhar diretamente nos pontos que travam o seu projeto.
+Se você está em uma iniciação científica, dissertação ou artigo e sente que algum desses conceitos ainda não está sólido, os cursos e ebooks do Laboratório de Epidemiologia foram feitos exatamente para destravar esses pontos.
 
-**[→ Saiba mais sobre a consultoria metodológica do LabEpi](/consultoria/)**
+**[→ Conheça os cursos e ebooks do LabEpi](/#cursos)**
 
 E se você quer ir além do glossário, explore também os nossos artigos sobre tipos de estudo, como calcular e interpretar OR e RR, e como o Global Burden of Disease funciona na prática.
 

@@ -23,7 +23,12 @@ function readingTime(body: string) {
   return Math.ceil(words / 200);
 }
 ---
-<BaseLayout title={`${post.data.title} — LabEpi`} description={post.data.description}>
+<BaseLayout
+  title={`${post.data.title} — LabEpi`}
+  description={post.data.description}
+  ogType="article"
+  image={post.data.cover ?? '/assets/images/logoheader.png'}
+>
 
 <article class="blog-post">
   <div class="blog-post-hero">

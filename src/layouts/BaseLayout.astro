@@ -5,9 +5,22 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  ogType?: string;
+  noindex?: boolean;
 }
 
-const { title, description = 'Epidemiologia aplicada para pesquisadores que querem publicar com rigor científico.' } = Astro.props;
+const {
+  title,
+  description = 'Epidemiologia aplicada para pesquisadores que querem publicar com rigor científico.',
+  image = '/assets/images/logoheader.png',
+  ogType = 'website',
+  noindex = false,
+} = Astro.props;
+
+const siteName = 'Laboratório de Epidemiologia';
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const imageUrl = new URL(image, Astro.site).href;
 ---
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -16,6 +29,25 @@ const { title, description = 'Epidemiologia aplicada para pesquisadores que quer
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{title}</title>
   <meta name="description" content={description}/>
+  <link rel="canonical" href={canonical}/>
+  <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'}/>
+  <meta name="theme-color" content="#070926"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content={ogType}/>
+  <meta property="og:site_name" content={siteName}/>
+  <meta property="og:locale" content="pt_BR"/>
+  <meta property="og:title" content={title}/>
+  <meta property="og:description" content={description}/>
+  <meta property="og:url" content={canonical}/>
+  <meta property="og:image" content={imageUrl}/>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content={title}/>
+  <meta name="twitter:description" content={description}/>
+  <meta name="twitter:image" content={imageUrl}/>
+
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
